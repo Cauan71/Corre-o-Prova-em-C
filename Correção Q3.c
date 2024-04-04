@@ -9,7 +9,7 @@ void menu(){
 	printf("\n1 - Mostrar Nome e Idade");
 	printf("\n2 - Mostrar Nome e Email");
 	printf("\n3 - Mostrar Nome e Telefone");
-	printf("\n4 - Mostrar todas as Informações");
+	printf("\n4 - Mostrar todas as InformaÃ§Ãµes");
 	printf("\n0 - Sair do Programa");
 	
 }
@@ -45,7 +45,7 @@ int main(){
 	
 	menu();
 	
-	printf("\nEscolha uma opção Desejada: ");
+	printf("\nEscolha uma opÃ§Ã£o Desejada: ");
 		scanf("%i",&opcao);
 		
 	system("cls || clear");
@@ -86,11 +86,8 @@ int main(){
 			printf("\nFim do Programa");
 			
 		default:
-			printf("Opção Inválida ,Tente Novamente...");
-			menu();
-			return opcao;
-			
-		
+			printf("OpÃ§Ã£o InvÃ¡lida ,Tente Novamente...");
+				
 	}
 
 
